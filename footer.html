@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .m11{
+    width: 100%;
+    height: max-content;
+    border: 0px solid black;
+    justify-items: center
+    align-items: center;
+    }
+    .inner1{
+        width: 100%;
+        align-items: center;
+        height: max-content;
+        background-color: aliceblue;
+        justify-content: center;
+    }
+    .inner1 button{
+        width: 100%;
+
+    } 
+    .inner1{
+        width: 500px;
+        height: max-content;
+        border: 0px solid red;
+        display: block;
+        justify-content: center;
+        
+    }
+    .teammember1 {
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 30%;
+        padding: 10px 3px;
+        display: none;
+    }
+    .teammember1 img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    .teammember1 div{
+        width: 100%;
+        height: 100%;
+        margin-top: 3px;
+        font-size: 12px;
+    }
+</style>
+<body>
+    <div class="m11">
+        <div class="inner1">
+            <button onclick="kno()" id="show1">My Working Team</button>
+            <div class="teammember1">
+                <img src="./image/imranshifa.jpeg" width="100"  alt="">
+                <div>MD Imran Hashami</div>
+                <div>Area Sales Manager</div><div> Phone no. 88096679535</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var b = document.getElementById("show1");
+    var c= document.getElementsByClassName("teammember1")[0 ]
+    let flag = 1;
+    function kno(){
+        if(flag){
+            c.style.display = "block";
+            flag = 0;
+        }else{
+            c.style.display = "none";
+            flag = 1;
+        }
+        
+    }
+</script>
+</html>

@@ -1,0 +1,27 @@
+[
+    {
+      "name":"Shifa Toilet Clearner",
+      "images":"./image/cleanershifa.jpeg",
+      "SaleRate":"100 rs",
+      "NetRate":"70 Rs",
+      "MRP":"110 Rs",
+      "Unit":"100ml",
+    },
+     {
+      "name":"Shifa Hands Sanitzer",
+      "images":"./image/saniteshifa.jpeg",
+      "SaleRate":"100 rs",
+      "NetRate":"70 Rs",
+      "MRP":"110 Rs",
+      "Unit":"100ml",
+    },
+     {
+      "name":"Shifa Powder",
+      "images":"./image/soapshofa.jpeg",
+      "SaleRate":"100 rs",
+      "NetRate":"70 Rs",
+      "MRP":"110 Rs",
+      "Unit":"100ml",
+    }
+]
+  
